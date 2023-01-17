@@ -1,0 +1,24 @@
+$font: 'Jost', sans-serif;
+$lila : #b586ff;
+$lavanda : #9796f0;
+$violeta : #331268;
+$coral : #ff7f50;
+$rosa : #ffd5e9;
+$negro : #000;
+$blanco: #fff;
+$boxshadow : 10px 10px 28px 1px rgba(0,0,0,0.72);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
+
+
+@import "mobile";
+
+@media only screen and (min-width: 1024px){
+    @import "desktop";
+}
